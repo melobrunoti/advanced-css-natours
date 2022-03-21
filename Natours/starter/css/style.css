@@ -19,6 +19,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777;
+    padding: 30px;
 }
 
 .header {
@@ -42,17 +43,31 @@ body {
 }
 
 .logo {
-    height: 45px;
+    height: 35px;
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .heading-primary {
-
+    color:#fff;
+    text-transform: uppercase;
 }
 
 .heading-primary-main {
-
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
 }
 
 .heading-primary-sub {
-    
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 12.5px;
 }
